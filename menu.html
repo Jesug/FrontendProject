@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine Dining</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+    <header>
+        <div class="wrapper">
+            <nav>
+                <div class="logo"> <h1>Fine<span>Dining</span></h1></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="hour.html">Hours & Location</a></li>
+                    <li><a href="order.html" class="btn green">Order Online</a></li>
+                    <li><a href="reservation.html" class="btn gold">Reservations</a></li>
+                </ul>
+            </nav>
+            <!-- End of Desktop Navigation Menu-->
+
+           <nav class="mobile-nav">
+                <div class="logo"><h1>Fine<span>Dining</span></h1>
+                </div>
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                
+           </nav>          
+          
+           <div class="mobile-menu-container">
+                <div class="close-icon">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="hour.html">Hours & Location</a></li>
+                    <li><a href="order.html" class="btn green">Order Online</a></li>
+                    <li><a href="reservation.html" class="btn gold">Reservations</a></li>
+                </ul>
+           </div>
+            <!-- End of mobile navigation-->
+        </div>
+        <div class="menuSlider-section">
+            <div class="menuSlider-image">
+                <img name="sliding">
+            </div>
+            <div class="menuSlider-overlay">
+                <div><h2 class="two">Indulge in a Symphony of Flavors</h2></div>
+                <div class="round-line3"></div>
+                <p>
+                    Welcome to our culinary paradise, where every dish tells a story of exquisite flavors and tantalizing aromas. 
+                    Our menu is a meticulously crafted journey through diverse culinary traditions, offering a symphony of taste sensations that will leave you craving for more
+                </p>
+            </div>
+            <div class="play-pause-container">
+                <i id="playIcon" class="fa-solid fa-play" onclick="toggleSlideshow" style="display: none;"></i>
+                <i id="pauseIcon" class="fa-solid fa-pause" onclick="toggleSlideshow"></i>
+            </div>
+            <div class="prev" onclick="prevImage()">
+                <i class="fa-solid fa-less-than"></i>
+              </div>
+              <div class="next" onclick="nextImage()">
+                <i class="fa-solid fa-greater-than"></i>
+              </div>
+        </div>
+    </header>
+    <!-- End of Header section-->
+
+    <div class="menu-container">
+        <div class="wrapper">
+            <div class="menu-heading">
+                <h2 class="two">Our Menu</h2>
+                <div class="round-line4"></div>
+            </div>
+            <div class="box-container">
+                <div class="mini-box one">
+                    <h2>Breakfast</h2>
+                    <div class="mini-card">
+                        <h3>Classic American Breakfast</h3> 
+                    <p>- Scrambled eggs
+                    - Bacon or sausage
+                    - Toast or English muffin
+                    - Hash browns or breakfast potatoes 
+                    - Greek yogurt or flavored yogurts with granola or honey</p>
+  
+                    <h3>Pancakes and Waffles</h3> 
+                    <p>- Fluffy pancakes with syrup and butter
+                    - Belgian waffles with toppings like fresh fruits, whipped cream, and maple syrup</p>
+                
+                    <h3>Omelettes</h3> 
+                    <p>- Cheese omelette with various fillings like mushrooms, onions, peppers, or spinach
+                    - Veggie omelette with a mix of fresh vegetables
+                    - Ham and cheese omelette</p>
+                    </div>
+                </div>
+
+                <div class="mini-box two">
+                    <h2>Lunch</h2>
+                    <div class="mini-card">
+                        <h3>Sandwiches and Pizza</h3> 
+                    <p>- Turkey or chicken club sandwich
+                    - BLT (Bacon, Lettuce, Tomato) sandwich
+                    - French fries or sweet potato fries
+                    - Margherita pizza with fresh tomatoes, mozzarella, and basil
+                    - Pepperoni pizza
+                    </p>
+                
+                    <h3>Pasta</h3> 
+                    <p>- Spaghetti Bolognese (meat sauce)
+                    - Fettuccine Alfredo with creamy Parmesan sauce
+                    - Pesto pasta with cherry tomatoes and fresh basil
+                    </p>
+                  
+                    <h3>Burgers and Sliders</h3> 
+                    <p>- Classic beef burger with lettuce, tomato, onion, and choice of toppings
+                    - Veggie burger with a selection of plant-based patties
+                    - Mini sliders with various fillings like beef, chicken, or pulled pork               
+                    </p> 
+                    </div>
+                </div>
+
+                <div class="mini-box three">
+                    <h2>Dinner</h2>
+                    <div class="mini-card">
+                        <h3>Appetizers</h3> 
+                    <p>- Bruschetta with fresh tomatoes, basil, and garlic on toasted bread
+                    - Stuffed mushrooms with a savory filling
+                    - Spinach and artichoke dip with tortilla chips
+                    </p>
+  
+                    <h3>Soups and Salads</h3> 
+                    <p>- Roasted tomato soup with basil
+                    - Caesar salad with grilled chicken or shrimp
+                    - Caprese salad with fresh mozzarella, tomatoes, and basil
+                    </p>
+                  
+                    <h3>Meat Entrées</h3> 
+                    <p>- Grilled steak with a choice of sauce (pepper, mushroom, or béarnaise)
+                    - Herb-roasted chicken with roasted potatoes and seasonal vegetables
+                    - Braised lamb shanks with red wine reduction
+                    </p>
+                    </div>
+                </div>
+
+                <div class="stationary-image">
+                    <img src="images/pexels-james-ampong-quilario-5618848-removebg-preview.png" alt="Chicken">
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="mini-box one">
+                    <h2>Dessert</h2>
+                    <div class="mini-card">
+                    <h3>Cookies and Brownies</h3> 
+                    <p>- Chocolate chip cookies
+                    - Oatmeal raisin cookies
+                    - Fudgy brownies with walnuts
+                    - White chocolate macadamia nut cookies
+                    </p>
+  
+                    <h3>Ice Cream Treats</h3> 
+                    <p>- Milkshakes (vanilla, chocolate, or strawberry)
+                    - Ice cream floats (root beer float, Coke float)
+                    - Ice cream sandwiches with homemade cookies
+                    - Banana split with multiple scoops of ice cream, toppings, and whipped cream
+                    </p>
+                
+                    <h3>Cupcakes and Muffins</h3> 
+                    <p>- Red velvet cupcakes with cream cheese frosting
+                    - Blueberry muffins with a streusel topping
+                    - Chocolate cupcakes with buttercream frosting
+                    - Carrot cake muffins with cream cheese filling
+                    </p>
+                    </div>
+                </div>
+
+                <div class="mini-box two">
+                    <h2>Cocktail</h2>
+                    <div class="mini-card">
+                      <h3>Mojito</h3> 
+                        <p> - A refreshing mix of rum, fresh mint leaves, lime juice, sugar, and soda water</p>
+        
+                      <h3>Margarita</h3> 
+                        <p>- A classic cocktail made with tequila, lime juice, and orange liqueur, served on the rocks or frozen with a salt rim</p>
+                      
+                      <h3>Martini</h3> 
+                        <p>- A timeless cocktail made with gin or vodka and a hint of vermouth, garnished with an olive or lemon twist</p>
+                        
+                      <h3>Cosmopolitan</h3> 
+                        <p>- A popular vodka-based cocktail with cranberry juice, orange liqueur, and a splash of lime juice</p>
+                    </div>
+                </div>
+
+                <div class="mini-box three">
+                    <h2>Wine</h2>
+                    <div class="mini-card">
+                        <h3>Red Wines</h3> 
+                        <p>Cabernet Sauvignon: A bold and full-bodied red wine with rich dark fruit flavors, such as blackberry and cassis
+                          Merlot: A smooth and medium-bodied red wine with flavors of plum, cherry, and chocolate
+                          Pinot Noir: A light and elegant red wine with notes of red berries, cherry, and earthy undertones
+                          </p>
+                      
+                      <h3>Rosé Wines</h3> 
+                        <p>Provence Rosé: A dry and light-bodied rosé with delicate floral and red fruit flavors
+                          White Zinfandel: A sweet and fruity rosé with flavors of strawberry, watermelon, and citrus
+                          Sangiovese Rosé: A crisp and refreshing rosé with bright red fruit flavors and a hint of acidity
+                          </p>
+                    </div>
+                </div>
+
+                <div class="moving-image">
+                    <img src="images/pexels-dominika-roseclay-4288047-removebg-preview.png" alt="Pizza">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <div class="links-container">
+                <div class="links">
+                    <h3>Quick Links</h3>
+
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+ 
+                <div class="contact">
+                    <h3>Contact Me</h3>
+
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-house"></i></a>Camp, Abeokuta, Ogun State, Nigeria</li>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i></a>+2347025765498</li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i></a>jesugeeh@outlook.com</li>
+                    </ul>
+                </div>
+
+                <div class="social">
+                    <h3>Social Links</h3>
+                    <a href="#" class="center"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="center"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="center"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="center"><i class="fa-brands fa-linkedin"></i></a>
+                
+                    <div class="form">
+                        <form action="#">
+                            <h4>Newsletter</h4>
+                            <input type="text" name="news" placeholder="Your email id here" />
+                            <button class="submit-btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <p class="copyright">This sample Website is developed by <span>I-am-Jesugbemisola</span> &copy; 2023 </p>
+        </div>
+    </footer>
+    <!-- End of footer section-->
+
+    <script>
+        ScrollReveal({ 
+      reset: true,
+      distance: '40px',
+      duration: 2000,
+      delay: 200
+    });
+
+    ScrollReveal().reveal('.one', { delay: 500, origin: 'left' });
+    ScrollReveal().reveal('.two', { delay: 500, origin: 'top' });
+    ScrollReveal().reveal('.three', { delay: 500, origin: 'right' });
+    </script>
+
+    <script src="main.js"></script>
+</body>
+</html>

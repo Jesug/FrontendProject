@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fine Dining</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" 
+    src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  
+    </script> 
+  </head>
+  <body>
+    <div class="main-order">
+      <!-- header -->
+
+        <input type="checkbox" id="cart" />
+        <label for="cart" class="label-cart"><span class="fas fa-shopping-cart"></span></label>
+        <h3 class="log">Order</h3>
+
+      <!-- sidebar -->
+      <div class="sidebar">
+        <div class="sidebar-menu">
+          <span class="fas fa-search"></span>
+          <a href="#">Search</a>
+        </div>
+
+        <div class="sidebar-menu">
+          <span class="fas fa-home"></span>
+          <a href="index.html">Home</a>
+        </div>
+
+        <div class="sidebar-menu">
+          <span class="fas fa-heart"></span>
+          <a href="#">Favorite</a>
+        </div>
+
+        <div class="sidebar-menu">
+          <span class="fas fa-user"></span>
+          <a href="#">Profile</a>
+        </div>
+
+        <div class="sidebar-menu">
+            <span class="fas fa-sliders-h"></span>
+            <a href="#">Setting</a>
+          </div>
+      </div>
+      <!-- main dashboard -->
+      <div class="dashboard">
+        <div class="dashboard-banner">
+            <img src="images/dessert6.jpeg" alt="">
+            <div class="banner-promo">
+                <h1><span>50% OFF</span><br>
+                Tasty Food <br> On Your Hand</h1>
+            </div>
+        </div>
+
+        <h3 class="dashboard-title">Recommend Food for you</h3>
+        <div class="dashboard-menu">
+            <a href="#">Favorites</a>
+            <a href="#">Best Seller</a>
+            <a href="#">Near Me</a>
+            <a href="#">Promotion</a>
+            <a href="#">Top Rated</a>
+            <a href="#">All</a>
+        </div>
+
+        <div class="dashboard-content">
+            <div class="dashboard-card">
+                <img src="images/chips2.jpg" class="card-image">
+                <div class="product-over">
+                    <button class="btn btn-small addToCart">
+                        <i class="fas fa-cart-plus"></i>Add to cart
+                    </button>
+                </div>  
+                <div class="card-detail">
+                    <h4>Chicken and Chips<span>$40</span></h4>
+                    <p>lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 mins</p>
+                </div>
+            </div>
+
+            <div class="dashboard-card">
+                <img src="images/hamburger.jpg" class="card-image">
+                <div class="product-over">
+                    <button class="btn btn-small addToCart">
+                        <i class="fas fa-cart-plus"></i>Add to cart
+                    </button>
+                </div>  
+                <div class="card-detail">
+                    <h4>Beef Burger<span>$15</span></h4>
+                    <p>lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 mins</p>
+                </div>
+            </div>
+
+            <div class="dashboard-card">
+                <img src="images/dessert5.jpeg" class="card-image">
+                <div class="product-over">
+                    <button class="btn btn-small addToCart">
+                        <i class="fas fa-cart-plus"></i>Add to cart
+                    </button>
+                </div>  
+                <div class="card-detail">
+                    <h4>Chocolate Dessert<span>$25</span></h4>
+                    <p>lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 mins</p>
+                </div>
+            </div>
+
+            <div class="dashboard-card" >
+                <img src="images/pancake2.jpg" class="card-image">
+                <div class="product-over">
+                    <button class="btn btn-small addToCart">
+                        <i class="fas fa-cart-plus"></i>Add to cart
+                    </button>
+                </div>  
+                <div class="card-detail">
+                    <h4>Pancake<span>$30</span></h4>
+                    <p>lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 mins</p>
+                </div>
+            </div>
+
+            <div class="dashboard-card" >
+                <img src="images/pasta2.jpg" class="card-image">
+                <div class="product-over">
+                    <button class="btn btn-small addToCart">
+                        <i class="fas fa-cart-plus"></i>Add to cart
+                    </button>
+                </div>  
+                <div class="card-detail">
+                    <h4>Pasta<span>$40</span></h4>
+                    <p>lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 mins</p>
+                </div>
+            </div>
+
+            <div class="dashboard-card" >
+                <img src="images/ChickenNuggets.jpg" class="card-image">
+                <div class="product-over">
+                    <button class="btn btn-small addToCart">
+                        <i class="fas fa-cart-plus"></i>Add to cart
+                    </button>
+                </div>  
+                <div class="card-detail">
+                    <h4>Chicken Nugget <span>$35</span></h4>
+                    <p>lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 mins</p>
+                </div>
+            </div>
+
+            <div class="dashboard-card">
+                <img src="images/sandwich.jpg" class="card-image">
+                <div class="product-over">
+                    <button class="btn btn-small addToCart">
+                        <i class="fas fa-cart-plus"></i>Add to cart
+                    </button>
+                </div>  
+                <div class="card-detail">
+                    <h4>Sandwich <span>$30</span></h4>
+                    <p>lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 mins</p>
+                </div>
+            </div>
+
+            <div class="dashboard-card">
+                <img src="images/pizza.jpg" class="card-image">
+                <div class="product-over">
+                    <button class="btn btn-small addToCart">
+                        <i class="fas fa-cart-plus"></i>Add to cart
+                    </button>
+                </div>  
+                <div class="card-detail">
+                    <h4>Pizza <span>$35</span></h4>
+                    <p>lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 mins</p>
+                </div>
+            </div>
+
+        </div>
+      </div>
+      
+      <!-- order dashboard -->
+      <div class="dashboard-order">
+
+            <div class="overlay"></div>
+            <div class="top">
+                <h3>Cart</h3>
+            </div>
+            <ul id="buyItems">
+                <h4 class="empty">Your shopping cart is empty</h4>
+            </ul>
+            <button class="btn checkout hidden">Check out</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
