@@ -2856,6 +2856,20 @@ form input[type = submit]:hover {
     .menu-container .box-container .moving-image img {
         width: 80px;
     }
+
+    .banner {
+        padding-top: 100px;
+    }
+
+    .card-img img {
+        display: block;
+        width: 100%;
+        height: 250px;
+    }
+    
+    .card-content {
+        height: 270px;
+    }
 }
 
 
