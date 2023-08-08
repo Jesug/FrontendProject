@@ -24,6 +24,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 body {
     margin: 0;
+    overflow: scroll;
 }
 
 /* Header */
@@ -1104,7 +1105,7 @@ form input[type = submit]:hover {
 .label-cart {
     position: fixed;
     top: 15px;
-    right: 20px;
+    right: 7px;
     z-index: 4;
     cursor: pointer;
 }
@@ -2563,6 +2564,17 @@ form input[type = submit]:hover {
     }
 
     /*Menu*/
+    header .menuSlider-section .menuSlider-overlay h2 {
+        font-size: 28px;
+        width: 250px;
+    }
+
+    header .menuSlider-section .menuSlider-overlay p {
+        font-size: 17px;
+        width: 250px;
+        text-align: center;
+    }
+
     .menu-container .box-container .stationary-image {
         left: 5px;
         top: 5px;
@@ -2596,19 +2608,6 @@ form input[type = submit]:hover {
     }
 
     .main-hour h2 {
-        font-size: 26px;
-        margin: 40px 0;
-    }
-    
-    .main-hour h3 {
-        font-size: 28px;
-    }
-    
-    .main-hour p {
-        font-size: 18px;
-    }
-
-    .main-hour h2 {
         font-size: 23px;
         margin: 40px 0;
     }
@@ -2622,9 +2621,241 @@ form input[type = submit]:hover {
         width: 300px;
     }
 
+    .moving-image1 img {
+        width: 100px;
+    }
+
+    .moving-image2 img {
+        width: 100px;
+    }
+
     .map-container .wrapper {
         width: 300px;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 350px) {
+    header .wrapper {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    header .imgSlider {
+        height: 100vh;
+    }
+
+    header .wrapper .about.wrapper {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .slider-section .slider-overlay h2 {
+        font-size: 13px;
+    }
+
+    .slider-section .slider-overlay h3 {
+        font-size: 23px;
+        margin-top: 30px;
+    }
+    
+    .slider-section .slider-overlay i {
+        font-size: 15px;
+    }
+    
+    .slider-section .slider-image img {
+        width: 100px;
+        height: auto;
+    }
+
+    .slider-section .slider-overlay p {
+        font-size: 12px;
+        width: 100px;
+    }
+
+    .btn.red {
+        padding: 8px 15px;
+    }
+
+    .btn.utensil-icon {
+        font-size: 13px;
+        padding-left: 50px;
+    }
+
+    .main .wrapper {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .main .content {
+        padding: 30px 0;
+        flex-direction: column;
+    }
+
+    .main .content .left img, .right img {
+        width: 200px;
+        object-fit: cover;
+    }
+
+    .main.clique img {
+        width: 200px;
+        object-fit: cover;
+    }
+
+    .main p {
+        width: 240px;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    footer .wrapper {
+        width: 200px;
+        margin: 0 auto; 
+    }
+
+    footer .links-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0 5px;
+    }
+
+    footer .links-container .social {
+        grid-column: 1 / 2;
+        margin-bottom: 10px;
+    }
+
+    footer .links-container .form {
+        text-align: center;
+    }
+
+    footer .form form input{
+        width: 100%;
+        margin: 0;
+    }
+
+    .form form input::placeholder {
+        color: var(--wine-color);
+        font-size: 11px;
+    }
+
+    footer .form form .submit-btn {
+        padding: 2px;
+    }
+
+    footer p {
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    footer ul {
+        padding: 0;
+    }
+
+    footer .social a {
+        margin: 0 5px;
+    }
+
+    .moving-image1 img {
+        width: 100px;
+        
+    }
+
+    .moving-image2 img {
+        width: 100px;
+        
+    }
+
+    .hero-section h2 {
+        font-size: 19px;
+    }
+    
+    .hero-section p {
+        margin-top: 40px;
+        width: 200px;
+        font-size: 23px;
+    }
+
+    .main-hour .wrapper {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .main-hour h3 {
+        font-size: 25px;
+    }
+    
+    .main-hour p {
+        font-size: 16px;
+        width: 250px;
+        padding: 0 5px;
+    }
+
+    .main-hour h2 {
+        font-size: 20px;
+        margin: 40px 0;
+    }
+
+    .map-container .wrapper {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    /*Menu*/
+    header .menuSlider-section .menuSlider-overlay h2 {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    header .menuSlider-section .menuSlider-overlay p {
+        font-size: 15px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .menu-container .wrapper {
+        width: 280px;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    .menu-container h3 {
+        font-size: 13px;
+    }
+
+    .menu-container p {
+        padding: 0 5px;
+        width: 220px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .menu-container .box-container {
+        padding: 60px 30px;
+    }
+    
+
+    .menu-container .box-container .stationary-image {
+        left: -10px;
+        top: 10px;
+    }
+
+    .menu-container .box-container .stationary-image img {
+        width: 80px;
+    }
+
+    .menu-container .box-container .moving-image {
+        right: 3px;
+        bottom: 3px;
+    }
+
+    .menu-container .box-container .moving-image img {
+        width: 80px;
     }
 }
 
