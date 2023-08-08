@@ -2650,20 +2650,21 @@ form input[type = submit]:hover {
     }
 
     .slider-section .slider-overlay h2 {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .slider-section .slider-overlay h3 {
         font-size: 23px;
         margin-top: 30px;
+        width: 200px;
     }
     
     .slider-section .slider-overlay i {
-        font-size: 15px;
+        font-size: 14px;
     }
     
     .slider-section .slider-image img {
-        width: 100px;
+        width: 90px;
         height: auto;
     }
 
