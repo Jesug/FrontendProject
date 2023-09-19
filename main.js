@@ -34,7 +34,9 @@ const navLinks = document.querySelectorAll('nav a').forEach(link => {
 const navLink = document.querySelectorAll('.mobile-menu-container a').forEach(link => {
   if(link.href.includes(`${activePage}`)) {
     link.classList.add('active');
-  } 
+  } else {
+    link.classList.remove('active');
+  }
 })  
 
 
