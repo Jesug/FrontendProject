@@ -1011,6 +1011,7 @@ iframe {
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
     border-radius: 30px;
+    padding: 0 20px;
 }
 
 .card-img {
@@ -1025,7 +1026,7 @@ iframe {
 
 .banner h2 {
     margin-top: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     text-align: center;
     font-family: 'satisfy', cursive;
     font-size: 30px;
@@ -1877,6 +1878,7 @@ form input[type = submit]:hover {
 
     .card-container {
         grid-template-columns: 1fr;
+        border-radius: 100px;
     }
 
     .card-img img {
@@ -2225,6 +2227,11 @@ form input[type = submit]:hover {
     footer .links-container {
         grid-template-columns: 1fr;
         text-align: center;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        border-radius: 100px;
     }
 }
 
@@ -2605,6 +2612,11 @@ form input[type = submit]:hover {
         width: 300px;
         margin: 0 auto;
     }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        border-radius: 100px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -2833,6 +2845,11 @@ form input[type = submit]:hover {
 
     .banner {
         padding-top: 100px;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        border-radius: 100px;
     }
 
     .card-img img {
