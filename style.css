@@ -991,27 +991,42 @@ iframe {
 }
 
 
-
-
-
 /*Reservation.html*/
 .banner {
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     background: #F0EDD4;
-    display: grid;
-    justify-content: center;
-    align-items: center;
     color: var(--black-color);
-    padding-bottom: 100px;
+    position: relative;
+}
+
+.title-heading {
+    position: absolute;
+    left: 42%;
+    top: 15%;
+}
+
+.title-heading h2 {
+    text-align: center;
+    font-family: 'satisfy', cursive;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.bigger-container {
+    position: absolute;
+    padding: 0 20px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
 .card-container {
     display: grid; 
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
-    border-radius: 30px;
-    padding: 0 20px;
+    border-radius: 20%;
+    width: 900px;
 }
 
 .card-img {
@@ -1024,17 +1039,10 @@ iframe {
     height: 350px;
 }
 
-.banner h2 {
-    margin-top: 150px;
-    margin-bottom: 60px;
-    text-align: center;
-    font-family: 'satisfy', cursive;
-    font-size: 30px;
-}
-
 .card-content {
     background: #dcdcdc;
     height: 350px;
+    margin-bottom: 15px;
 }
 
 .card-content h3 {
@@ -1077,6 +1085,7 @@ form input[type = submit] {
     background: #EF9595;
     padding: 12px 0;
     border-radius: 20px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -1605,6 +1614,17 @@ form input[type = submit]:hover {
         margin: 0 auto;
     }
 
+    .card-container {
+        border-radius: 100px;
+        padding: 0 20px;
+        width: 850px;
+    }
+
+    .title-heading {
+        position: absolute;
+        left: 42%;
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -1687,6 +1707,17 @@ form input[type = submit]:hover {
     .about .wrapper {
         width: 1100px;
         margin: 0 auto;
+    }
+
+    .card-container {
+        border-radius: 100px;
+        padding: 0 20px;
+        width: 800px;
+    }
+
+    .title-heading {
+        position: absolute;
+        left: 40%;
     }
 
 }
@@ -1793,6 +1824,17 @@ form input[type = submit]:hover {
         width: 800px;
         margin: 0 auto;
     }
+
+    .card-container {
+        border-radius: 100px;
+        padding: 0 20px;
+        width: 700px;
+    }
+
+    .title-heading {
+        position: absolute;
+        left: 38%;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -1867,35 +1909,37 @@ form input[type = submit]:hover {
     .hero-section p {
         font-size: 21px;
     }
+
+    .card-container {
+        border-radius: 100px;
+        padding: 0 20px;
+        width: 650px;
+    }
+
+    .title-heading {
+        position: absolute;
+        left: 34%;
+    }
 }
 
 @media (max-width: 850px) {
     /*Reservation*/
     
-    .banner {
-        padding-top: 50px;
-    }
-
     .card-container {
         grid-template-columns: 1fr;
         border-radius: 100px;
+        padding: 0 20px;
+        width: 700px;
+        margin-top: 180px;
+        height: 650px;
+        margin-bottom: 30px;
     }
 
-    .card-img img {
-        display: block;
-        width: 100%;
-        height: 300px;
+    .title-heading {
+        position: absolute;
+        left: 34%;
+        top: 10%;
     }
-    
-    .banner h2 {
-        margin-top: 60px;
-    }
-    
-    .card-content {
-        background: #dcdcdc;
-        height: 300px;
-    }
-
 }
 
 @media (max-width: 800px) {
@@ -2085,6 +2129,22 @@ form input[type = submit]:hover {
         width: 700px;
         margin: 0 auto;
     }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        border-radius: 100px;
+        padding: 0 20px;
+        width: 650px;
+        margin-top: 160px;
+        height: 650px;
+        margin-bottom: 30px;
+    }
+
+    .title-heading {
+        position: absolute;
+        left: 34%;
+        top: 10%;
+    }
 }
 
 @media (max-width: 700px) {
@@ -2191,6 +2251,22 @@ form input[type = submit]:hover {
         width: 600px;
         margin: 0 auto;
     }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        border-radius: 100px;
+        padding: 0 20px;
+        width: 650px;
+        margin-top: 160px;
+        height: 650px;
+        margin-bottom: 30px;
+    }
+
+    .title-heading {
+        position: absolute;
+        left: 34%;
+        top: 10%;
+    }
 }
 
 @media (max-width: 650px) {
@@ -2232,6 +2308,17 @@ form input[type = submit]:hover {
     .card-container {
         grid-template-columns: 1fr;
         border-radius: 100px;
+        padding: 0 20px;
+        width: 600px;
+        margin-top: 160px;
+        height: 650px;
+        margin-bottom: 30px;
+    }
+
+    .title-heading {
+        position: absolute;
+        left: 34%;
+        top: 10%;
     }
 }
 
@@ -2388,6 +2475,22 @@ form input[type = submit]:hover {
     .map-container .wrapper {
         width: 450px;
         margin: 0 auto;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        border-radius: 100px;
+        padding: 0 20px;
+        width: 470px;
+        margin-top: 160px;
+        height: 650px;
+        margin-bottom: 30px;
+    }
+
+    .title-heading {
+        position: absolute;
+        left: 26%;
+        top: 10%;
     }
 }
 
@@ -2616,6 +2719,17 @@ form input[type = submit]:hover {
     .card-container {
         grid-template-columns: 1fr;
         border-radius: 100px;
+        padding: 0 20px;
+        width: 400px;
+        margin-top: 160px;
+        height: 650px;
+        margin-bottom: 30px;
+    }
+
+    .title-heading {
+        position: absolute;
+        left: 20%;
+        top: 10%;
     }
 }
 
@@ -2843,33 +2957,24 @@ form input[type = submit]:hover {
         width: 80px;
     }
 
-    .banner {
-        padding-top: 100px;
-        height: 100px;
-        overflow-y: scroll;
-    }
-
     .card-container {
         grid-template-columns: 1fr;
         border-radius: 100px;
         padding: 0 20px;
-        margin-top: 100px;
+        width: 330px;
+        height: 650px;
+        margin-top: 150px;
         margin-bottom: 30px;
     }
 
-    .card-img img {
-        display: block;
-        width: 100%;
-        height: 250px;
-    }
-    
-    .card-content {
-        height: 270px;
+    .title-heading {
+        position: absolute;
+        left: 15%;
+        top: 10%;
     }
 
-    .banner h2 {
-        margin-top: 60px;
-        margin-bottom: 30px;
+    form input[type = submit] {
+        padding: 12px 10px;
     }
 
     /*Order*/
