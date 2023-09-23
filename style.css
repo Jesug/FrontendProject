@@ -1501,6 +1501,7 @@ form input[type = submit]:hover {
     color: var(--white-shade);
     align-items: center;
     color: var(--white-shade);
+    cursor: pointer;
 }
 
 .fa-solid fa-xmark {
