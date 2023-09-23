@@ -2845,6 +2845,8 @@ form input[type = submit]:hover {
 
     .banner {
         padding-top: 100px;
+        height: 100px;
+        overflow-y: scroll;
     }
 
     .card-container {
