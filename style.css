@@ -81,7 +81,7 @@ nav ul {
 }
 
 a:is(:link, :active, :visited).active {
-   color: #00092C;
+   color: #F9FBE7;
    background: #FEA1A1;
    padding: 5px;
    border-radius: 10px;
@@ -97,7 +97,7 @@ nav ul li a {
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
     text-decoration: none;
-    color: var(--gold-color);
+    color: var(--black-color);
 }
 
 /*Slider section*/
@@ -211,7 +211,7 @@ nav ul li a {
     border-right: none;
     border-top: 3px solid var(--light-green);
     border-bottom: 3px solid var(--light-green);
-    color: var(--gold-color);
+    color: var(--black-color);
 }
 
 .btn.gold {
@@ -219,7 +219,7 @@ nav ul li a {
     border-right: none;
     border-radius: none;
     border-top: 3px solid var(--gold-color);
-    color: var(--gold-color);
+    color: var(--black-color);
     padding: 5px 5px;
     border-bottom: 3px solid var(--gold-color);
 }
@@ -962,7 +962,7 @@ header .menuSlider-section .menuSlider-overlay p {
 .map-container {
     width: 100%;
     height: auto;
-    background: #EBEF95;
+    background: #F0EDD4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -998,14 +998,11 @@ iframe {
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/clique5.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: #F0EDD4;
     display: grid;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: var(--black-color);
     padding-bottom: 100px;
 }
 
@@ -1030,7 +1027,8 @@ iframe {
     margin-top: 150px;
     margin-bottom: 20px;
     text-align: center;
-    text-transform: uppercase;
+    font-family: 'satisfy', cursive;
+    font-size: 30px;
 }
 
 .card-content {
@@ -1074,8 +1072,8 @@ form input[type = text], form input [type = number], form input::placeholder, se
 }
 
 form input[type = submit] {
-    color: var(--light-grey);
-    background: var(--red-color);
+    color: var(--black-color);
+    background: #EF9595;
     padding: 12px 0;
     border-radius: 20px;
     cursor: pointer;
@@ -1984,13 +1982,13 @@ form input[type = submit]:hover {
     }
 
     .mobile-menu-container ul li a {
-        color: var(--gold-color);
+        color: var(--black-color);
         text-decoration: none;
         font-size: 20px;
     }
 
     .mobile-menu-container a:is(:link, :active, :visited).active {
-        color: #00092C;
+        color: #F9FBE7;
     }
 
     .slider-section .slider-overlay h2 {
