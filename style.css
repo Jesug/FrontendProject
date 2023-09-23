@@ -1504,10 +1504,6 @@ form input[type = submit]:hover {
     cursor: pointer;
 }
 
-.fa-solid fa-xmark {
-    color: #F9FBE7;
-}
-
 .close p {
     padding: 3px 5px;
 }
@@ -1932,7 +1928,7 @@ form input[type = submit]:hover {
     }
 
     nav.mobile-nav .menu-icon i {
-        color: var(--red-color);
+        color: #EF9595;
         font-size: 30px;
     }
 
@@ -1973,7 +1969,7 @@ form input[type = submit]:hover {
     }
 
     .mobile-menu-container .close-icon i {
-        color: var(--red-color);
+        color: #EF9595;
         font-size: 35px;
     }
 
@@ -1988,13 +1984,13 @@ form input[type = submit]:hover {
     }
 
     .mobile-menu-container ul li a {
-        color: #fff;
+        color: var(--gold-color);
         text-decoration: none;
         font-size: 20px;
     }
 
     .mobile-menu-container a:is(:link, :active, :visited).active {
-        color: #ffff00;
+        color: #00092C;
     }
 
     .slider-section .slider-overlay h2 {
