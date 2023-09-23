@@ -2854,6 +2854,7 @@ form input[type = submit]:hover {
         border-radius: 100px;
         padding: 0 20px;
         margin-top: 100px;
+        margin-bottom: 30px;
     }
 
     .card-img img {
