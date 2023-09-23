@@ -105,7 +105,7 @@ document.getElementById('root').innerHTML = categories.map((item)=>
     return(
         `<div class='board'>
         <div class='box'>
-            <img class='images' src=${image}></img>
+            <img class='imageBox' src=${image}></img>
         <div class='product-over'>
         `+
         "<button class='btn-small' onclick='addToCart("+(i++)+")'>Add to Cart</button>"+

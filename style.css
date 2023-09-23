@@ -1343,7 +1343,7 @@ form input[type = submit]:hover {
     justify-content: center;
 }
 
-.images {
+.imageBox {
     width: 100%;
     height: 150px;
     object-fit: cover;
