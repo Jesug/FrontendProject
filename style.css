@@ -494,7 +494,7 @@ header .imgSlider {
 }
 
 .about .about-container .top {
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .about h2 {
@@ -933,10 +933,12 @@ header .menuSlider-section .menuSlider-overlay p {
 }
 
 .main-hour h2 {
-    color: var(--dark-gold);
+    color: var(--black-color);
     font-size: 30px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'satisfy', cursive;
     margin: 20px 0;
+    background: #EFD595;
+    padding: 5px;
 }
 
 .main-hour h3 {
@@ -1924,21 +1926,24 @@ form input[type = submit]:hover {
 
 @media (max-width: 850px) {
     /*Reservation*/
-    
+    .banner {
+        min-height: 120vh;
+    }
+
     .card-container {
         grid-template-columns: 1fr;
         border-radius: 100px;
         padding: 0 20px;
-        width: 700px;
-        margin-top: 180px;
+        width: 400px;
+        margin-top: 100px;
         height: 650px;
         margin-bottom: 30px;
     }
 
     .title-heading {
         position: absolute;
-        left: 34%;
-        top: 10%;
+        left: 35%;
+        top: 12%;
     }
 }
 
@@ -2130,12 +2135,16 @@ form input[type = submit]:hover {
         margin: 0 auto;
     }
 
+    .banner {
+        min-height: 120vh;
+    }
+
     .card-container {
         grid-template-columns: 1fr;
         border-radius: 100px;
         padding: 0 20px;
-        width: 650px;
-        margin-top: 160px;
+        width: 400px;
+        margin-top: 120px;
         height: 650px;
         margin-bottom: 30px;
     }
@@ -2143,7 +2152,7 @@ form input[type = submit]:hover {
     .title-heading {
         position: absolute;
         left: 34%;
-        top: 10%;
+        top: 12%;
     }
 }
 
@@ -2252,11 +2261,15 @@ form input[type = submit]:hover {
         margin: 0 auto;
     }
 
+    .banner {
+        min-height: 120vh;
+    }
+
     .card-container {
         grid-template-columns: 1fr;
         border-radius: 100px;
         padding: 0 20px;
-        width: 650px;
+        width: 400px;
         margin-top: 160px;
         height: 650px;
         margin-bottom: 30px;
@@ -2264,8 +2277,8 @@ form input[type = submit]:hover {
 
     .title-heading {
         position: absolute;
-        left: 34%;
-        top: 10%;
+        left: 32%;
+        top: 14%;
     }
 }
 
@@ -2305,11 +2318,15 @@ form input[type = submit]:hover {
         text-align: center;
     }
 
+    .banner {
+        min-height: 120vh;
+    }
+
     .card-container {
         grid-template-columns: 1fr;
         border-radius: 100px;
         padding: 0 20px;
-        width: 600px;
+        width: 400px;
         margin-top: 160px;
         height: 650px;
         margin-bottom: 30px;
@@ -2317,8 +2334,8 @@ form input[type = submit]:hover {
 
     .title-heading {
         position: absolute;
-        left: 34%;
-        top: 10%;
+        left: 32%;
+        top: 14%;
     }
 }
 
@@ -2477,11 +2494,15 @@ form input[type = submit]:hover {
         margin: 0 auto;
     }
 
+    .banner {
+        min-height: 120vh;
+    }
+
     .card-container {
         grid-template-columns: 1fr;
         border-radius: 100px;
         padding: 0 20px;
-        width: 470px;
+        width: 400px;
         margin-top: 160px;
         height: 650px;
         margin-bottom: 30px;
@@ -2489,8 +2510,8 @@ form input[type = submit]:hover {
 
     .title-heading {
         position: absolute;
-        left: 26%;
-        top: 10%;
+        left: 27%;
+        top: 15%;
     }
 }
 
@@ -2716,6 +2737,10 @@ form input[type = submit]:hover {
         margin: 0 auto;
     }
 
+    .banner {
+        min-height: 120vh;
+    }
+
     .card-container {
         grid-template-columns: 1fr;
         border-radius: 100px;
@@ -2729,7 +2754,7 @@ form input[type = submit]:hover {
     .title-heading {
         position: absolute;
         left: 20%;
-        top: 10%;
+        top: 14%;
     }
 }
 
@@ -2957,6 +2982,10 @@ form input[type = submit]:hover {
         width: 80px;
     }
 
+    .banner {
+        min-height: 120vh;
+    }
+
     .card-container {
         grid-template-columns: 1fr;
         border-radius: 100px;
@@ -2970,7 +2999,7 @@ form input[type = submit]:hover {
     .title-heading {
         position: absolute;
         left: 15%;
-        top: 10%;
+        top: 14%;
     }
 
     form input[type = submit] {
