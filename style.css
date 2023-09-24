@@ -2152,7 +2152,7 @@ form input[type = submit]:hover {
     .title-heading {
         position: absolute;
         left: 34%;
-        top: 12%;
+        top: 10%;
     }
 }
 
@@ -2278,7 +2278,7 @@ form input[type = submit]:hover {
     .title-heading {
         position: absolute;
         left: 32%;
-        top: 14%;
+        top: 10%;
     }
 }
 
@@ -2335,7 +2335,7 @@ form input[type = submit]:hover {
     .title-heading {
         position: absolute;
         left: 32%;
-        top: 14%;
+        top: 10%;
     }
 }
 
@@ -2511,7 +2511,7 @@ form input[type = submit]:hover {
     .title-heading {
         position: absolute;
         left: 27%;
-        top: 15%;
+        top: 10%;
     }
 }
 
@@ -2754,7 +2754,7 @@ form input[type = submit]:hover {
     .title-heading {
         position: absolute;
         left: 20%;
-        top: 14%;
+        top: 10%;
     }
 }
 
@@ -2998,8 +2998,8 @@ form input[type = submit]:hover {
 
     .title-heading {
         position: absolute;
-        left: 15%;
-        top: 14%;
+        left: 16%;
+        top: 11%;
     }
 
     form input[type = submit] {
